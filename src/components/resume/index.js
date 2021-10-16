@@ -226,8 +226,7 @@ export default function Landing() {
                         <div>
                           <h4 className='text-md'>Bachelor of Engineering</h4>
                           <p>
-                            Visvesvaraya Technological University (Current CGPA
-                            8)
+                            Visvesvaraya Technological University (CGPA 8.5)
                           </p>
                         </div>
                       </div>
@@ -281,7 +280,7 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className='text-lg'>Bengaluru,Karnataka</h4>
+                          <h4 className='text-lg'>Jaipur, Rajasthan</h4>
                         </div>
                       </div>
                     </li>
@@ -323,7 +322,7 @@ export default function Landing() {
         >
           <div style={{ textAlign: 'center', marginBottom: '30px' }}>
             <h2 className='text-4xl font-semibold text-white full-width '>
-              ---{'> '}My Skills{' <'}---
+              {'<!'}--My Skills--{'>'}
             </h2>
           </div>
           <div className='serv-content'>
@@ -331,21 +330,25 @@ export default function Landing() {
               <div className='box'>
                 <i className='fas fa-code fa-2x p-4'></i>
                 <div className='text'>HTML</div>
-                <p className='p-2'>Hyper Text Markup Language</p>
+                <p style={{ fontSize: '13px' }} className='p-2'>
+                  Hyper Text Markup Language
+                </p>
               </div>
             </div>
             <div className='card'>
               <div className='box'>
                 <i className='fas fa-paint-brush fa-2x p-4'></i>
                 <div className='text'>CSS</div>
-                <p className='p-2'>Cascading Style Sheets</p>
+                <p style={{ fontSize: '13px' }} className='p-2'>
+                  Cascading Style Sheets
+                </p>
               </div>
             </div>
             <div className='card '>
               <div className='box'>
                 <i className='fab fa-js fa-2x p-4'></i>
                 <div className='text'>JAVASCRIPT</div>
-                <p className='p-2'>
+                <p style={{ fontSize: '13px' }} className='p-2'>
                   JavaScript
                   <br /> (ES6)
                 </p>
@@ -354,15 +357,26 @@ export default function Landing() {
             <div className='card'>
               <div className='box'>
                 <i className='fab fa-react fa-2x p-4'></i>
-                <div className='text'>React JS</div>
-                <p className='p-2'>Client-Side JavaScript Framework</p>
+                <div className='text'>ReactJS</div>
+                <p style={{ fontSize: '13px' }} className='p-2'>
+                  Client-Side JavaScript Framework
+                </p>
+              </div>
+            </div>
+            <div className='card'>
+              <div className='box'>
+                <i className='fab fa-angular fa-2x p-4'></i>
+                <div className='text'>Angular</div>
+                <p style={{ fontSize: '13px' }} className='p-2'>
+                  Client-Side TypeScript Framework
+                </p>
               </div>
             </div>
             <div className='card'>
               <div className='box'>
                 <i className='fab fa-node fa-2x p-4'></i>
-                <div className='text'>Node JS</div>
-                <p className='p-2'>
+                <div className='text'>NodeJS</div>
+                <p style={{ fontSize: '13px' }} className='p-2'>
                   Server-Side
                   <br /> JavaScript
                 </p>
@@ -371,9 +385,9 @@ export default function Landing() {
             <div className='card'>
               <div className='box'>
                 <i className='fab fa-etsy fa-2x p-4'></i>
-                <div className='text'>Express JS</div>
-                <p className='p-2'>
-                  Node JS <br /> Framework
+                <div className='text'>Express</div>
+                <p style={{ fontSize: '13px' }} className='p-2'>
+                  NodeJS <br /> Framework
                 </p>
               </div>
             </div>
@@ -459,7 +473,7 @@ export default function Landing() {
         >
           <div style={{ textAlign: 'center', marginBottom: '30px' }}>
             <h2 className='text-4xl font-semibold text-white full-width '>
-              ---{'> '}My Projects{' <'}---
+              {'<!'}--My Projects--{'>'}
             </h2>
           </div>
           <div className='serv-content'>
