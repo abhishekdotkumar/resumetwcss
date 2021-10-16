@@ -1,0 +1,22 @@
+p {
+  margin-left: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.links,a {
+  color: #01bf71;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 700;
+}
+a:hover {
+  color: #0077cc;
+}

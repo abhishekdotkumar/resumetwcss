@@ -1,0 +1,20 @@
+body {
+  overflow: overlay;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  overflow-x: hidden !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #01bf71;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+* {
+  user-select: none;
+}
