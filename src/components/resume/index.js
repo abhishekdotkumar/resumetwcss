@@ -9,9 +9,15 @@ import db from '../../firebase'
 import pexel from '../../images/pexel.jpeg'
 import landing from '../../images/landing.jpg'
 import Sidebar from '../Sidebar'
-import Netflix from '../../images/netflix.png'
-import Amazon from '../../images/amazon.png'
-import Chatbox from '../../images/chatbox.png'
+// import Netflix from '../../images/netflix.png'
+// import Amazon from '../../images/amazon.png'
+import UI from '../../images/ui.png'
+import Raven from '../../images/raven.png'
+import ASUCLA from '../../images/asucla.png'
+import Troubleshoot from '../../images/troubleshoot.png'
+import WebDevelopment from '../../images/web_development.png'
+import MPBirla from '../../images/mp_birla.png'
+// import Chatbox from '../../images/chatbox.png'
 
 export default function Landing() {
   useEffect(() => {
@@ -108,7 +114,7 @@ export default function Landing() {
                     className={
                       'bg-transparent text-white font-bold py-2 px-4 border border-white-400 rounded inline-block mt-12 cursor-pointer '
                     }
-                    href='https://drive.google.com/file/d/10w8cc2rdMm6DroGAsE0MBv1HqDTWbOd0/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1GqGPgdqbNThRNvfW2wH3jSi1i7OzW1kX/view?usp=sharing'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -142,7 +148,7 @@ export default function Landing() {
           <div className='container mx-auto px-4'>
             <div className='items-center flex flex-wrap'>
               <div
-                className='w-full md:w-4/12 ml-auto mr-auto px-4'
+                className='w-full p-2 md:w-5/12 ml-auto mr-auto px-4'
                 data-aos='fade-right'
               >
                 <img
@@ -152,7 +158,7 @@ export default function Landing() {
                 />
               </div>
               <div
-                className='w-full md:w-5/12 ml-auto mr-auto px-4'
+                className='w-full p-2 md:w-5/12 ml-auto mr-auto px-4'
                 data-aos='fade-left'
               >
                 <div className='md:pr-12'>
@@ -207,7 +213,7 @@ export default function Landing() {
                 </div>
               </div>
               <div
-                className='w-full md:w-5/12 ml-auto mr-auto px-4'
+                className='w-full p-2 md:w-5/12 ml-auto mr-auto px-4'
                 data-aos='fade-left'
               >
                 <div className='md:pr-12'>
@@ -263,7 +269,7 @@ export default function Landing() {
                 </div>
               </div>
               <div
-                className='w-full md:w-5/12 ml-auto mr-auto px-4'
+                className='w-full p-2 md:w-5/12 ml-auto mr-auto px-4'
                 data-aos='fade-left'
               >
                 <div className='md:pr-12'>
@@ -322,7 +328,7 @@ export default function Landing() {
         >
           <div style={{ textAlign: 'center', marginBottom: '30px' }}>
             <h2 className='text-4xl font-semibold text-white full-width '>
-              {'<!'}--My Skills--{'>'}
+              {'<!-- '}My Skills{' -->'}
             </h2>
           </div>
           <div className='serv-content'>
@@ -356,8 +362,17 @@ export default function Landing() {
             </div>
             <div className='card'>
               <div className='box'>
+                <i className='fab fa-angular fa-2x p-4'></i>
+                <div className='text'>Angular</div>
+                <p style={{ fontSize: '13px' }} className='p-2'>
+                  Client-Side TypeScript Framework
+                </p>
+              </div>
+            </div>
+            <div className='card'>
+              <div className='box'>
                 <i className='fab fa-react fa-2x p-4'></i>
-                <div className='text'>ReactJS</div>
+                <div className='text'>React</div>
                 <p style={{ fontSize: '13px' }} className='p-2'>
                   Client-Side JavaScript Framework
                 </p>
@@ -365,10 +380,10 @@ export default function Landing() {
             </div>
             <div className='card'>
               <div className='box'>
-                <i className='fab fa-angular fa-2x p-4'></i>
-                <div className='text'>Angular</div>
+                <i className='fab fa-vuejs fa-2x p-4'></i>
+                <div className='text'>Vue</div>
                 <p style={{ fontSize: '13px' }} className='p-2'>
-                  Client-Side TypeScript Framework
+                  Client-Side JavaScript Framework
                 </p>
               </div>
             </div>
@@ -387,7 +402,7 @@ export default function Landing() {
                 <i className='fab fa-etsy fa-2x p-4'></i>
                 <div className='text'>Express</div>
                 <p style={{ fontSize: '13px' }} className='p-2'>
-                  NodeJS <br /> Framework
+                  Built on top of <br /> NodeJS
                 </p>
               </div>
             </div>
@@ -401,7 +416,7 @@ export default function Landing() {
             <div className='flex flex-wrap justify-center text-center mb-24'>
               <div className='w-full lg:w-6/12 px-4'>
                 <h2 className='text-4xl font-semibold ' data-aos='fade-down'>
-                  What I am Good at
+                  {' <!-- '}What I am Good at {'-->'}
                 </h2>
                 <p className='text-lg leading-relaxed m-4 ' data-aos='fade-up'>
                   What seperates design from art is that design is meant to be
@@ -414,16 +429,18 @@ export default function Landing() {
                 <div className='px-6'>
                   <img
                     alt='...'
-                    src={require('../../images/abhi.png')}
-                    className='shadow-lg rounded-full max-w-full mx-auto'
+                    src={WebDevelopment}
+                    className='shadow-lg rounded-full bg-black max-w-full mx-auto'
                     data-aos='fade-down-right'
                     style={{ maxWidth: '120px' }}
                     id='animationlogo'
                   />
                   <div className='pt-6 text-center'>
-                    <h5 className='text-xl font-bold '>Abhishek Kumar</h5>
-                    <p className='mt-1 text-sm  uppercase font-semibold'>
-                      Web Developing
+                    <h5 className='text-xl font-bold '>
+                      Constantly learning and improving
+                    </h5>
+                    <p className='mt-1 text-sm   font-semibold'>
+                      A keen interest in technology
                     </p>
                   </div>
                 </div>
@@ -432,16 +449,16 @@ export default function Landing() {
                 <div className='px-6'>
                   <img
                     alt='...'
-                    src={require('../../images/abhi.png')}
+                    src={UI}
                     className='shadow-lg rounded-full max-w-full mx-auto'
                     data-aos='fade-down'
                     style={{ maxWidth: '120px' }}
                     id='animationlogo'
                   />
                   <div className='pt-6 text-center'>
-                    <h5 className='text-xl font-bold '>Abhishek Kumar</h5>
-                    <p className='mt-1 text-sm  uppercase font-semibold'>
-                      UI/UX Designing
+                    <h5 className='text-xl font-bold '>Attention to detail</h5>
+                    <p className='mt-1 text-sm   font-semibold'>
+                      Delivering a great User Experience
                     </p>
                   </div>
                 </div>
@@ -450,16 +467,18 @@ export default function Landing() {
                 <div className='px-6'>
                   <img
                     alt='...'
-                    src={require('../../images/abhi.png')}
+                    src={Troubleshoot}
                     className='shadow-lg rounded-full max-w-full mx-auto'
                     data-aos='fade-down-left'
                     style={{ maxWidth: '120px' }}
                     id='animationlogo'
                   />
                   <div className='pt-6 text-center'>
-                    <h5 className='text-xl font-bold '>Abhishek kumar</h5>
-                    <p className='mt-1 text-sm  uppercase font-semibold'>
-                      REACT Projects
+                    <h5 className='text-xl font-bold '>
+                      Excellent problem-solving skills
+                    </h5>
+                    <p className='mt-1 text-sm   font-semibold'>
+                      Troubleshooting and debugging issues
                     </p>
                   </div>
                 </div>
@@ -473,128 +492,47 @@ export default function Landing() {
         >
           <div style={{ textAlign: 'center', marginBottom: '30px' }}>
             <h2 className='text-4xl font-semibold text-white full-width '>
-              {'<!'}--My Projects--{'>'}
+              {'<!-- '}My Projects{' -->'}
             </h2>
           </div>
-          <div className='serv-content'>
+          <div
+            className='serv-content'
+            style={{ justifyContent: 'space-evenly' }}
+          >
             <div id='hovercard' className='specialcard card'>
-              <a
-                href='https://netflix-clone-7d2ed.web.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  style={{ padding: '20px' }}
-                  src={Netflix}
-                  alt='netflixclone'
-                />
+              <a href='#' rel='noopener noreferrer'>
+                <img style={{ padding: '' }} src={Raven} alt='netflixclone' />
               </a>
               <div style={{ marginTop: '10px' }}>
                 <p style={{ color: 'white', fontSize: 'large' }}>
                   {' '}
-                  Netflix Clone
+                  Raven360 - Rule Engine
                 </p>
               </div>
             </div>
 
             <div id='hovercard' className='specialcard card'>
-              <a
-                href='https://clone-51daa.firebaseapp.com'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img
-                  style={{ padding: '20px' }}
-                  src={Amazon}
-                  alt='amazonclone'
-                />
+              <a href='#' rel='noopener noreferrer'>
+                <img style={{ padding: '20px' }} src={MPBirla} alt='mp birla' />
               </a>
               <div style={{ marginTop: '10px' }}>
                 <p style={{ color: 'white', fontSize: 'large' }}>
                   {' '}
-                  Amazon Clone
+                  MP Birla- Club Ultimate
                 </p>
               </div>
             </div>
             <div id='hovercard' className='specialcard card'>
-              <a
-                href='https://whatsapp-firebase-30ff7.web.app/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <img style={{ padding: '20px' }} src={Chatbox} alt='chatbox' />
+              <a href='#' rel='noopener noreferrer'>
+                <img style={{ padding: '0' }} src={ASUCLA} alt='asucla' />
               </a>
               <div style={{ marginTop: '10px' }}>
-                <p style={{ color: 'white', fontSize: 'large' }}> Chat Box</p>
+                <p style={{ color: 'white', fontSize: 'large' }}> ASUCLA</p>
               </div>
             </div>
           </div>
         </section>
         <div className='py-10 bg-black text-white'></div>
-        {/* <section className='pb-20 relative block bg-black'>
-          
-          <div
-            id='contact'
-            className='container mx-auto px-4 lg:pt-24 lg:pb-64'
-          >
-            <div className='flex flex-wrap text-center justify-center'>
-              <div className='w-full lg:w-6/12 px-4'>
-                <h2
-                  className='text-4xl font-semibold text-white pt-12'
-                  data-aos='fade-down'
-                >
-                  Projects
-                </h2>
-              </div>
-            </div>
-            <div className='flex flex-wrap mt-12 justify-center'>
-              <div
-                className='w-full lg:w-3/12 px-4 text-center'
-                data-aos='fade-down-right'
-              >
-                <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                  <i className='fas fa-medal text-xl'></i>
-                </div>
-                <h6 className='text-xl mt-5 font-semibold text-white'>
-                  Excellent Services
-                </h6>
-                <p className='mt-2 mb-4 text-gray-500'>
-                  My most unhappy customers are my greatest source of learning.
-                </p>
-              </div>
-              <div
-                className='w-full lg:w-3/12 px-4 text-center'
-                data-aos='fade-down'
-              >
-                <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                  <i className='fas fa-poll text-xl'></i>
-                </div>
-                <h5 className='text-xl mt-5 font-semibold text-white'>
-                  Marketing Strategy
-                </h5>
-                <p className='mt-2 mb-4 text-gray-500'>
-                  The first step in exceeding your client's expectations is to
-                  know those expectations.
-                </p>
-              </div>
-              <div
-                className='w-full lg:w-3/12 px-4 text-center'
-                data-aos='fade-down-left'
-              >
-                <div className='text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center'>
-                  <i className='fas fa-lightbulb text-xl'></i>
-                </div>
-                <h5 className='text-xl mt-5 font-semibold text-white'>
-                  Always Innovative
-                </h5>
-                <p className='mt-2 mb-4 text-gray-500'>
-                  The way to get started is to quit talking and start doing.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         <section
           id='feedback'
           className='relative block py-24 lg:pt-0 bg-black text-white'
@@ -688,27 +626,6 @@ export default function Landing() {
           </div>
         </section>
       </main>
-      {/* const submitButton=document.querySelector("#submitbtn");
-let name=document.querySelector("#username");
-let email=document.querySelector("#usermail");
-let message=document.querySelector("#usermessage");
-
-const feed=db.collection('feedback');
-  let userinput=name.value;
-  let emailinput=email.value;
-  let messageinput=message.value;
-
-  //Access the database collection
-  feed.doc().set({
-    name:userinput,
-    email:emailinput,
-    message:messageinput,
-  }).then(function(){
-    alert("Thank you for your feedback");
-  }).catch(function(error){
-    alert(error);
-  })
-*/}
       <div id='findme'>
         <Footer />
       </div>
